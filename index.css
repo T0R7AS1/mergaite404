@@ -1,0 +1,78 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    display: inline-block;
+    width: 1500px;
+    margin-top: 40px;
+    margin-left: calc((100% - 1500px) / 2);
+}
+
+header {
+    display: inline-block;
+    width: 100%;
+}
+
+.mergaite {
+    display: inline-block;
+    float: right;
+    margin-right: 5%;
+}
+
+section {
+    display: inline-block;
+    width: 100%;
+    color: gray;
+}
+
+.container{
+    display: inline-block;
+    width: 45%;
+}
+
+.imgc {
+    display: inline-block;
+    float: right;
+    margin-right: 5%;
+    margin-top: 2%;
+    width: 45%;
+}
+
+p {
+    margin-top: -130px;
+    font-size: 50px;
+    margin-left: 90px;
+
+}
+
+h1{
+    font-size: 150px;
+    margin-left: 90px;
+}
+
+/* navigacija */
+
+.dv{
+    display: inline-block;
+    float: left;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+    margin-top: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: gray;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.lasta{
+    border: solid 3px gray;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+}
